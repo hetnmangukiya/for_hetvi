@@ -176,4 +176,24 @@ p {
   position: relative;
   z-index: 2;
 }
+.love-video {
+  width: 90%;
+  max-width: 360px;
+  border-radius: 20px;
+  margin: 20px auto;
+  box-shadow: 0 15px 35px rgba(255, 120, 160, 0.45);
+}
+
+.video-text {
+  font-size: 1.2rem;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #6b2c2c;
+}
+
+/* extra glow when video page opens */
+#video {
+  animation: fadeIn 1.2s ease;
+}
 
