@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="screen active" id="home">
+  <img src="images/cat1.png" class="cat">
+  <p>hey! i made something for you<br>will you see it?</p>
+  <div class="btns">
+    <button onclick="show('yes')">yes</button>
+    <button onclick="show('no')">no</button>
+  </div>
+</div>
+
+<div class="screen" id="no">
+  <img src="images/cat_no.png" class="cat">
+  <h2>HOW DARE YOU!!</h2>
+  <button onclick="show('home')">BACK</button>
+</div>
+
+<div class="screen" id="yes">
+  <img src="images/cat_yes.png" class="cat">
+  <p>Hehe!<br>click below for the surprise!!</p>
+  <button onclick="show('gift')">next</button>
+</div>
+
+<div class="screen" id="gift">
+  <img src="images/gift_cat.png"
+       class="cat gift"
+       onclick="show('summary')">
+  <p>
+    Happy new year my kuchupuchu!!!<br>
+    click on the gift box 💝
+  </p>
+</div>
+
+
+<div class="screen" id="summary">
+  <h2>2025 Summary!</h2>
+  <h2>ONLY 2 DAYS😭</h2>
+  <img src="images/summary.jpeg" class="summary">
+  <button onclick="show('letter')">next</button>
+</div>
+
+<div class="screen" id="letter">
+  <h2>Letter For You</h2>
+  <img src="images/letter.jpeg" class="letter">
+  <button onclick="show('wish')">next</button>
+</div>
+
+<div class="screen" id="wish">
+  <img src="images/wish_cat.png" class="cat">
+  <p>
+    For 2026, my biggest wish is to see you happy. I hope this year brings you:<br>
+    • Unshakable peace in your heart🤍❤️<br>
+    • Laughter that leaves you breathless.<br>
+    • good sleep fr<br>
+    • • Full main-character energy, and I'll be the annoying paparazzi following you around for a hug. 📸✨
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
