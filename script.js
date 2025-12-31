@@ -11,6 +11,7 @@ function show(id) {
   setTimeout(() => {
     target.style.boxShadow = "none";
   }, 600);
+  
 }
 
 /* floating hearts generator */
